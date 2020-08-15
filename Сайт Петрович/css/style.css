@@ -247,9 +247,12 @@ align-items: center;
 .left-dropdown-catalog-item:hover {
   border-bottom: 1px solid #000; 
 }
-.left-dropdown-catalog-item-current a {
+.left-dropdown-catalog-link-current {
   font-weight: bold;
   color:#000;
+  text-decoration: none;
+}
+.left-dropdown-catalog-item-current {
   border-bottom: 1px solid #000;
 }
 .left-dropdown-catalog-link:hover{
