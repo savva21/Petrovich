@@ -127,11 +127,11 @@ color: #fff;
   text-decoration: none;
 } 
 .head-phone_link span:first-child {
-color: #000;
+  color: #000;
 }
 .head-phone_link span:last-child {
-color:#fff;
-font-weight: bold;
+  color:#fff;
+  font-weight: bold;
 }
 .order-link {
   color:#000;
@@ -147,8 +147,8 @@ font-weight: bold;
 }
 
 .bottom-container__cart {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .bottom-container__link-cart {
   text-decoration: none;
@@ -166,13 +166,17 @@ align-items: center;
   margin: 0 auto;
   /* border: solid 1px red; */
 }
+.main__top-row {
+  display: flex;
+  padding-top: 20px;
+}
 .catalog-dropdown-button {
   width: 240px;
   height: 40px;
   left: 0px;
-  margin-top: 20px;
   background: #FFCC33;
   display: flex;
+  margin-right: 15px;
 }
 .catalog-dropdown-button img {
   height: 20px;
@@ -203,7 +207,6 @@ align-items: center;
   justify-content: center;
   margin: auto;
   margin-right: 15px;
-  /* transform: rotate(180deg); */
 }
 .rotate {
   transform: rotate(180deg);
@@ -217,12 +220,9 @@ align-items: center;
   width: 100%;
   height: 100%;
   overflow: auto;
-  /* background-color: rgba(0, 0, 0, .8); */
 }
 .left-dropdown-catalog {
-  /* display: none; */
   position: fixed;
-  /* z-index: 1; */
   margin-top: 214px;
   margin-left: 228px;
   width: 240px;
@@ -230,7 +230,6 @@ align-items: center;
   border-top: none;
   background: #fff;
   margin-bottom: 20px;
-  /* display: none; */
   box-shadow: 0 4px 6px rgba(0,0,0,.1)
 }
 .left-dropdown-catalog-list {
@@ -262,6 +261,32 @@ align-items: center;
   color: #666;
   text-decoration: none;
 }
+
+.main__input {
+  width: 750px;
+  height: 40px;
+  border: 1px solid #fc3;
+  padding: 0 38px 0 10px;
+  font-size: 16px;
+}
+.main__top-btn {
+  width: 240px;
+  height: 40px;
+  float: right;
+  background: #fc3;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+.icon-search {
+ width: 16px;
+ height: 16px;
+ vertical-align: middle;
+margin-right: 10px;
+
+}
+
 /* .bottom-container__cart span {
   display: inline-block;
 } */
@@ -294,10 +319,6 @@ align-items: center;
   top:10px;
 } */
 
-
-.popup{
-  
-}
 .popup-overlay {
   position: fixed;
   top: 0;
