@@ -268,6 +268,7 @@ color: #fff;
   border: 1px solid #fc3;
   padding: 0 38px 0 10px;
   font-size: 16px;
+  outline: none;
 }
 .main__top-btn {
   width: 240px;
@@ -278,14 +279,119 @@ color: #fff;
   color: #fff;
   border: none;
   padding: 10px;
+  cursor: pointer;
+}
+.main__top-btn:hover {
+  background: #ecba15;
 }
 .icon-search {
  width: 16px;
  height: 16px;
  vertical-align: middle;
-margin-right: 10px;
+  margin-right: 10px;
 
 }
+.main__ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.main__ul-item {
+  margin-right: 15px;
+  color: #000;
+  font-size: 16px;
+}
+.main__ul-item-sl {
+  color: #ccc;
+}
+
+
+.main__left-col-container {
+  width: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+.left-filter-box {
+  border-bottom: 0.5px solid #ccc;
+  padding: 18px 20px;
+  display: flex;
+}
+.left-filter-box input {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border:.5px solid  #ccc;
+}
+.left-filter-box span {
+  display: block;
+  color: #666;
+  padding-top: 5px;
+}
+.left-price-box {
+  border-bottom: 0.5px solid #ccc;
+  padding: 5px 20px;
+}
+.left-box-wrapper {
+  padding: 10px 0;
+}
+.main__left-col-straw {
+  fill: black;
+  width: 16px;
+  height: 16px;
+}
+.left-box-name {
+  font-size: 16px;
+  bottom:10px;
+}
+.left-price-box-input {
+  width: 170px;
+  padding: 3px 6px 3px 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.left-price-box-span {
+  color: #666;
+}
+.left-item-box {
+  border-bottom: 0.5px solid #ccc;
+  padding: 5px 20px 15px;
+}
+.left-filter-box-item {
+  display: flex;
+  padding: 3px 0;
+}
+.left-filter-box-item input{ 
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border:.5px solid  #ccc;
+}
+.left-filter-box-item span {
+  color: #666;
+  padding-top: 5px;
+}
+.left-filter-btn {
+  width: 200px;
+  height: 40px;
+  background: #999;
+  margin: 20px;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.left-filter-btn:hover {
+  background: #000;
+}
+
+
+
 
 /* .bottom-container__cart span {
   display: inline-block;
