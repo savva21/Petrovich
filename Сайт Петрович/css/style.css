@@ -85,7 +85,6 @@ color: #fff;
   width: 100%;
   height: 100px;
   background-color: #FFCC33;
-  
 }
 
 .bottom-container {
@@ -388,6 +387,62 @@ color: #fff;
 }
 .left-filter-btn:hover {
   background: #000;
+}
+.main__bottom-raw {
+  display: flex;
+}
+.main__right-col-container {
+margin-left: 5px;
+}
+.main__right-col-container h1 {
+  margin: 0 0 15px 5px;
+  font-size: 24px;
+}
+.main__right-col-banner {
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.control-block__filter {
+  display: flex;
+  height: 30px;
+  align-items:center;
+  margin-left: 12px;
+}
+.subdivision-select {
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 3px 15px 3px 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  outline: none;
+}
+.category-total-products-counter {
+  font-weight: bold;
+}
+.category-total-products-sorting {
+  margin-top: 5px;
+  display: flex;
+  padding-left: 12px;
+  justify-content: space-between;
+}
+.category-total-products-sorting ul {
+  margin: 0;
+  display: flex;
+  
+  list-style: none;
+  padding: 10px 20px 0 0;
+}
+.category-total-products-sorting ul li {
+  margin-right: 20px;
+}
+.view-variant-link {
+  text-decoration: none;
+}
+.view-variant-link-icon {
+  width: 20px;height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 
