@@ -470,7 +470,7 @@
                                         <option value="interest">популярности</option>
                                     </select>
                                 </li>
-                                <li>
+                                <li class="sorting-style">
                                     <span>по цене</span>
                                         <svg class="lowprice-link-icon">
                                             <use xlink:href="sprite.svg#lowprice"></use>
@@ -499,87 +499,419 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-container-raw">
-                    <div class="product-item-photo-col">
-                        <img src="images/Пазогребневая плита Knauf.jpg" alt="плита Knauf">
-                    </div>
-                    <div class="product-item-info-col">
-                        <div class="rating-stars">
-                            <span class="product-item-code">Код: 617318</span>
-                            <svg class="sp-star-on">
-                                <use xlink:href="sprite.svg#star_on"></use>
-                            </svg>
-                            <svg class="sp-star-on">
-                                <use xlink:href="sprite.svg#star_on"></use>
-                            </svg>
-                            <svg class="sp-star-half">
-                                <use xlink:href="sprite.svg#star_half"></use>
-                            </svg>
-                            <svg class="sp-star-off">
-                                <use xlink:href="sprite.svg#star_off"></use>
-                            </svg>
-                            <svg class="sp-star-off">
-                                <use xlink:href="sprite.svg#star_off"></use>
-                            </svg>
-                            <a href="#" class="sp-rating-label">(10)</a>
+                <div class="products-list">
+                    <div class="product-container-raw" data-price="282" data-rating="3.5">
+                        <div class="product-item-photo-col">
+                            <img src="images/Пазогребневая плита Knauf.jpg" alt="плита Knauf">
                         </div>
-                        <div class="product-title-block">
-                            <a href="#" class="product-title-link">Пазогребневая плита Knauf влагостойкая полнотелая 667х500х80 мм</a>
-                            <div class="product-maybeneed-block">
-                                <span>Могут понадобиться:</span>
-                                <a href="#">Анкера потолочные,</a>
-                                <a href="#">Демисезонная,</a>
-                                <a href="#">Защита рук,</a>
-                                <a href="#">Защитные сетки и пленки,</a>
-                                <a href="#">Киянки, молотки, кувалды, кирки</a>
+                        <div class="product-item-info-col">
+                            <div class="rating-stars">
+                                <span class="product-item-code">Код: 617318</span>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-half">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-half">
+                                    <use xlink:href="sprite.svg#star_half"></use>
+                                </svg>
+                                <svg class="sp-star-off">
+                                    <use xlink:href="sprite.svg#star_off"></use>
+                                </svg>
+                                <a href="#" class="sp-rating-label">(10)</a>
                             </div>
-                        </div>   
-                    </div>
-                    <div class="product-cart-info-col">
-                        <p class="product-amount-and-subdivision">Горьковское шоссе: 794 шт</p>
-                        <div class="cart-price-block-black">
-                            <div class="cart-price-block-text">По карте клуба</div>
-                            <div class="price-in-price-block">
+                            <div class="product-title-block">
+                                <a href="#" class="product-title-link">Пазогребневая плита Knauf влагостойкая полнотелая 667х500х80 мм</a>
+                                <div class="product-maybeneed-block">
+                                    <span>Могут понадобиться:</span>
+                                    <a href="#">Анкера потолочные,</a>
+                                    <a href="#">Демисезонная,</a>
+                                    <a href="#">Защита рук,</a>
+                                    <a href="#">Защитные сетки и пленки,</a>
+                                    <a href="#">Киянки, молотки, кувалды, кирки</a>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="product-cart-info-col">
+                            <p class="product-amount-and-subdivision">Горьковское шоссе: 794 шт</p>
+                            <div class="cart-price-block-black">
+                                <div class="cart-price-block-text">По карте клуба</div>
+                                <div class="price-in-price-block">
+                                    <span>282</span>
+                                    <svg class="view-variant-link-icon">
+                                        <use xlink:href="sprite.svg#rub"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cart-price-block-gray">
                                 <span>282</span>
-                                <svg class="view-variant-link-icon">
-                                    <use xlink:href="sprite.svg#rub"></use>
+                                <svg class="gray-rub">
+                                    <use xlink:href="sprite.svg#lightrub"></use>
+                                </svg>
+                            </div>
+                            <p class="cart-info-bonus-price">Можно купить за 70,25 баллов</p>
+                            <p class="cart-info-pcs-price">Цена за штуку</p>
+                            <div class="cart-and-compare-wrapper">
+                                <input type="text" value="1">
+                                <div class="straw-amount-wrapper">
+                                    <div class="amount-straw-up">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="amount-straw-down">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <button type="submit" class="in-cart-btn">
+                                    <svg class="icon-in-cart">
+                                        <use xlink:href="sprite.svg#cart"></use>
+                                    </svg>
+                                    <span>в корзину</span>
+                                </button>
+                            </div>
+                            <div class="add-compare-list">
+                                <span>Добавить к сравнению</span>
+                                <svg class="icon-add-tocart">
+                                    <use xlink:href="sprite.svg#plus"></use>
                                 </svg>
                             </div>
                         </div>
-                        <div class="cart-price-block-gray">
-                            <span>282</span>
-                            <svg class="gray-rub">
-                                <use xlink:href="sprite.svg#lightrub"></use>
-                            </svg>
+                    </div>
+                    <div class="product-container-raw" data-price="198" data-rating="3">
+                        <div class="product-item-photo-col">
+                            <img src="images/Пазогребневая плита ВОЛМА.jpg" alt="плита Knauf">
                         </div>
-                        <p class="cart-info-bonus-price">Можно купить за 70,25 баллов</p>
-                        <p class="cart-info-pcs-price">Цена за штуку</p>
-                        <div class="cart-and-compare-wrapper">
-                            <input type="text" value="1">
-                            <div class="straw-amount-wrapper">
-                                <div class="amount-straw-up">
-                                    <svg class="main__left-col-straw">
-                                        <use xlink:href="sprite.svg#ctrl"></use>
-                                    </svg>
+                        <div class="product-item-info-col">
+                            <div class="rating-stars">
+                                <span class="product-item-code">Код: 105529</span>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-off">
+                                    <use xlink:href="sprite.svg#star_off"></use>
+                                </svg>
+                                <svg class="sp-star-off">
+                                    <use xlink:href="sprite.svg#star_off"></use>
+                                </svg>
+                                <a href="#" class="sp-rating-label">(14)</a>
+                            </div>
+                            <div class="product-title-block">
+                                <a href="#" class="product-title-link">Пазогребневая плита ВОЛМА 667х500х80 мм полнотелая
+                                </a>
+                                <div class="product-maybeneed-block">
+                                    <span>Могут понадобиться:</span>
+                                    <a href="#">Анкера потолочные,</a>
+                                    <a href="#">Демисезонная,</a>
+                                    <a href="#">Защита рук,</a>
+                                    <a href="#">Защитные сетки и пленки,</a>
+                                    <a href="#">Киянки, молотки, кувалды, кирки,</a>
+                                    <a href="#">Кладочные и монтажные смеси,</a>
+                                    <a href="#">Клей для пенополистирола и газобетона</a>
                                 </div>
-                                <div class="amount-straw-down">
-                                    <svg class="main__left-col-straw">
-                                        <use xlink:href="sprite.svg#ctrl"></use>
+                            </div>   
+                        </div>
+                        <div class="product-cart-info-col">
+                            <p class="product-amount-and-subdivision">Горьковское шоссе: 385 шт</p>
+                            <div class="cart-price-block-black">
+                                <div class="cart-price-block-text">По карте клуба</div>
+                                <div class="price-in-price-block">
+                                    <span>198</span>
+                                    <svg class="view-variant-link-icon">
+                                        <use xlink:href="sprite.svg#rub"></use>
                                     </svg>
                                 </div>
                             </div>
-                            <button type="submit" class="in-cart-btn">
-                                <svg class="icon-in-cart">
-                                    <use xlink:href="sprite.svg#cart"></use>
+                            <div class="cart-price-block-gray">
+                                <span>198</span>
+                                <svg class="gray-rub">
+                                    <use xlink:href="sprite.svg#lightrub"></use>
                                 </svg>
-                                <span>в корзину</span>
-                            </button>
+                            </div>
+                            <p class="cart-info-bonus-price">Можно купить за 49,25 баллов</p>
+                            <p class="cart-info-pcs-price">Цена за штуку</p>
+                            <div class="cart-and-compare-wrapper">
+                                <input type="text" value="1">
+                                <div class="straw-amount-wrapper">
+                                    <div class="amount-straw-up">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="amount-straw-down">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <button type="submit" class="in-cart-btn">
+                                    <svg class="icon-in-cart">
+                                        <use xlink:href="sprite.svg#cart"></use>
+                                    </svg>
+                                    <span>в корзину</span>
+                                </button>
+                            </div>
+                            <div class="add-compare-list">
+                                <span>Добавить к сравнению</span>
+                                <svg class="icon-add-tocart">
+                                    <use xlink:href="sprite.svg#plus"></use>
+                                </svg>
+                            </div>
                         </div>
-                        <div class="add-compare-list">
-                            <span>Добавить к сравнению</span>
-                            <svg class="icon-add-tocart">
-                                <use xlink:href="sprite.svg#plus"></use>
-                            </svg>
+                    </div>
+                    <div class="product-container-raw" data-price="22" data-rating="3">
+                        <div class="product-item-photo-col">
+                            <img src="images/скоба для пазогребневой плиты.jpg" alt="плита Knauf">
+                        </div>
+                        <div class="product-item-info-col">
+                            <div class="rating-stars">
+                                <span class="product-item-code">Код: 157352</span>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-half">
+                                    <use xlink:href="sprite.svg#star_half"></use>
+                                </svg>
+                                <a href="#" class="sp-rating-label">(6)</a>
+                            </div>
+                            <div class="product-title-block">
+                                <a href="#" class="product-title-link">Скоба для пазогребневой плиты Кнауф С1 120х100 мм
+                                </a>
+                                <div class="product-maybeneed-block">
+                                    <span>Могут понадобиться:</span>
+                                    <a href="#">Анкера потолочные,</a>
+                                    <a href="#">Демисезонная,</a>
+                                    <a href="#">Защита рук,</a>
+                                    <a href="#">Мешки, пакеты, коробки, стретч,</a>
+                                    <a href="#">Саморезы универсальные оцинкованные,</a>
+                                    <a href="#">Уровни</a>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="product-cart-info-col">
+                            <p class="product-amount-and-subdivision">Горьковское шоссе: 500 шт</p>
+                            <div class="cart-price-block-black">
+                                <div class="cart-price-block-text">По карте клуба</div>
+                                <div class="price-in-price-block">
+                                    <span>22</span>
+                                    <svg class="view-variant-link-icon">
+                                        <use xlink:href="sprite.svg#rub"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cart-price-block-gray">
+                                <span>22</span>
+                                <svg class="gray-rub">
+                                    <use xlink:href="sprite.svg#lightrub"></use>
+                                </svg>
+                            </div>
+                            <p class="cart-info-bonus-price">Можно купить за 5,25 баллов</p>
+                            <p class="cart-info-pcs-price">Цена за штуку</p>
+                            <div class="cart-and-compare-wrapper">
+                                <input type="text" value="1">
+                                <div class="straw-amount-wrapper">
+                                    <div class="amount-straw-up">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="amount-straw-down">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <button type="submit" class="in-cart-btn">
+                                    <svg class="icon-in-cart">
+                                        <use xlink:href="sprite.svg#cart"></use>
+                                    </svg>
+                                    <span>в корзину</span>
+                                </button>
+                            </div>
+                            <div class="add-compare-list">
+                                <span>Добавить к сравнению</span>
+                                <svg class="icon-add-tocart">
+                                    <use xlink:href="sprite.svg#plus"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-container-raw" data-price="224" data-rating="3">
+                        <div class="product-item-photo-col">
+                            <img src="images/Пазогребневая плита Кнауф.jpg" alt="плита Knauf">
+                        </div>
+                        <div class="product-item-info-col">
+                            <div class="rating-stars">
+                                <span class="product-item-code">Код: 132234</span>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-on">
+                                    <use xlink:href="sprite.svg#star_on"></use>
+                                </svg>
+                                <svg class="sp-star-off">
+                                    <use xlink:href="sprite.svg#star_off"></use>
+                                </svg>
+                                <svg class="sp-star-off">
+                                    <use xlink:href="sprite.svg#star_off"></use>
+                                </svg>
+                                <a href="#" class="sp-rating-label">(7)</a>
+                            </div>
+                            <div class="product-title-block">
+                                <a href="#" class="product-title-link">Пазогребневая плита 667х500х80 мм Кнауф (полнотелая)
+                                </a>
+                                <div class="product-maybeneed-block">
+                                    <span>Могут понадобиться:</span>
+                                    <a href="#">Анкера потолочные,</a>
+                                    <a href="#">Демисезонная,</a>
+                                    <a href="#">Защита рук,</a>
+                                    <a href="#">Защитные сетки и пленки,</a>
+                                    <a href="#">Киянки, молотки, кувалды, кирки,</a>
+                                    <a href="#">Кладочные и монтажные смеси,</a>
+                                    <a href="#">Мешки, пакеты, коробки, стретч,</a>
+                                    <a href="#">Ножовки, полотна</a>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="product-cart-info-col">
+                            <p class="product-amount-and-subdivision">Горьковское шоссе: 120 шт</p>
+                            <div class="cart-price-block-black">
+                                <div class="cart-price-block-text">По карте клуба</div>
+                                <div class="price-in-price-block">
+                                    <span>224</span>
+                                    <svg class="view-variant-link-icon">
+                                        <use xlink:href="sprite.svg#rub"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cart-price-block-gray">
+                                <span>224</span>
+                                <svg class="gray-rub">
+                                    <use xlink:href="sprite.svg#lightrub"></use>
+                                </svg>
+                            </div>
+                            <p class="cart-info-bonus-price">Можно купить за 55,75 баллов</p>
+                            <p class="cart-info-pcs-price">Цена за штуку</p>
+                            <div class="cart-and-compare-wrapper">
+                                <input type="text" value="1">
+                                <div class="straw-amount-wrapper">
+                                    <div class="amount-straw-up">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="amount-straw-down">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <button type="submit" class="in-cart-btn">
+                                    <svg class="icon-in-cart">
+                                        <use xlink:href="sprite.svg#cart"></use>
+                                    </svg>
+                                    <span>в корзину</span>
+                                </button>
+                            </div>
+                            <div class="add-compare-list">
+                                <span>Добавить к сравнению</span>
+                                <svg class="icon-add-tocart">
+                                    <use xlink:href="sprite.svg#plus"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-container-raw" data-price="1245" data-rating="0.5">
+                        <div class="product-item-photo-col">
+                            <img src="images/лента кнауф мал.jpg" alt="лента Knauf">
+                        </div>
+                        <div class="product-item-info-col">
+                            <div class="rating-stars">
+                                <span class="product-item-code">Код: 661962</span>
+                            </div>
+                            <div class="product-title-block">
+                                <a href="#" class="product-title-link">Лента полимерная Knauf  6х80 мм 20 м для пазогребневой плиты
+                                </a>
+                                <div class="product-maybeneed-block">
+                                    <span>Могут понадобиться:</span>
+                                    <a href="#">Кладочные и монтажные смеси,</a>
+                                    <a href="#">Шпаклевки,</a>
+                                    <a href="#">Ножи строительные, лезвия,</a>
+                                    <a href="#">Защита рук,</a>
+                                    <a href="#">Мешки, пакеты, коробки, стретч</a>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="product-cart-info-col">
+                            <p class="product-amount-and-subdivision">Горьковское шоссе: 30 шт</p>
+                            <div class="cart-price-block-black">
+                                <div class="cart-price-block-text">По карте клуба</div>
+                                <div class="price-in-price-block">
+                                    <span>1245</span>
+                                    <svg class="view-variant-link-icon">
+                                        <use xlink:href="sprite.svg#rub"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cart-price-block-gray">
+                                <span>1245</span>
+                                <svg class="gray-rub">
+                                    <use xlink:href="sprite.svg#lightrub"></use>
+                                </svg>
+                            </div>
+                            <p class="cart-info-bonus-price">Можно купить за 311 баллов</p>
+                            <p class="cart-info-pcs-price">Цена за рулон</p>
+                            <div class="cart-and-compare-wrapper">
+                                <input type="text" value="1">
+                                <div class="straw-amount-wrapper">
+                                    <div class="amount-straw-up">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="amount-straw-down">
+                                        <svg class="main__left-col-straw">
+                                            <use xlink:href="sprite.svg#ctrl"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <button type="submit" class="in-cart-btn">
+                                    <svg class="icon-in-cart">
+                                        <use xlink:href="sprite.svg#cart"></use>
+                                    </svg>
+                                    <span>в корзину</span>
+                                </button>
+                            </div>
+                            <div class="add-compare-list">
+                                <span>Добавить к сравнению</span>
+                                <svg class="icon-add-tocart">
+                                    <use xlink:href="sprite.svg#plus"></use>
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>

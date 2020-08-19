@@ -440,6 +440,9 @@ body {
   display: flex;
   align-items: center;
 }
+.sorting-style {
+  cursor: pointer;
+}
 .view-variant-link {
   text-decoration: none;
 }

@@ -66,3 +66,6 @@ window.onclick = function(event){
     catalogDropdownStraw.classList.remove('rotate')
   }
 }
+
+// products-list родитель карточек товаров
+// product-container-raw ребенок карточка товара
