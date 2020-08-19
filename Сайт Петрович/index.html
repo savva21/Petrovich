@@ -456,9 +456,12 @@
                         
                         <div class="category-total-products-sorting">
                             <ul>
-                                <li>Сортировать:</li>
                                 <li>
-                                    <select name="" id="">
+                                    <span class="visible-lg">Сортировать:</span>
+                                    <!-- <span class="visible-md-inline-block visible-sm-inline-block">Сортировать по:</span> -->
+                                </li>
+                                <li>
+                                    <select name="" id="" style = "display: none;">
                                         <option value="price-hight">цене ↑</option>
                                         <option value="price-low">цене ↓</option>
                                     
@@ -469,6 +472,10 @@
                                 </li>
                                 <li>
                                     <span>по цене</span>
+                                        <svg class="lowprice-link-icon">
+                                            <use xlink:href="sprite.svg#lowprice"></use>
+                                        </svg>
+                                    
                                 </li>
                                 <li>
                                     <span>по названию</span>
@@ -492,9 +499,95 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-container-raw">
+                    <div class="product-item-photo-col">
+                        <img src="images/Пазогребневая плита Knauf.jpg" alt="плита Knauf">
+                    </div>
+                    <div class="product-item-info-col">
+                        <div class="rating-stars">
+                            <span class="product-item-code">Код: 617318</span>
+                            <svg class="sp-star-on">
+                                <use xlink:href="sprite.svg#star_on"></use>
+                            </svg>
+                            <svg class="sp-star-on">
+                                <use xlink:href="sprite.svg#star_on"></use>
+                            </svg>
+                            <svg class="sp-star-half">
+                                <use xlink:href="sprite.svg#star_half"></use>
+                            </svg>
+                            <svg class="sp-star-off">
+                                <use xlink:href="sprite.svg#star_off"></use>
+                            </svg>
+                            <svg class="sp-star-off">
+                                <use xlink:href="sprite.svg#star_off"></use>
+                            </svg>
+                            <a href="#" class="sp-rating-label">(10)</a>
+                        </div>
+                        <div class="product-title-block">
+                            <a href="#" class="product-title-link">Пазогребневая плита Knauf влагостойкая полнотелая 667х500х80 мм</a>
+                            <div class="product-maybeneed-block">
+                                <span>Могут понадобиться:</span>
+                                <a href="#">Анкера потолочные,</a>
+                                <a href="#">Демисезонная,</a>
+                                <a href="#">Защита рук,</a>
+                                <a href="#">Защитные сетки и пленки,</a>
+                                <a href="#">Киянки, молотки, кувалды, кирки</a>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="product-cart-info-col">
+                        <p class="product-amount-and-subdivision">Горьковское шоссе: 794 шт</p>
+                        <div class="cart-price-block-black">
+                            <div class="cart-price-block-text">По карте клуба</div>
+                            <div class="price-in-price-block">
+                                <span>282</span>
+                                <svg class="view-variant-link-icon">
+                                    <use xlink:href="sprite.svg#rub"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="cart-price-block-gray">
+                            <span>282</span>
+                            <svg class="gray-rub">
+                                <use xlink:href="sprite.svg#lightrub"></use>
+                            </svg>
+                        </div>
+                        <p class="cart-info-bonus-price">Можно купить за 70,25 баллов</p>
+                        <p class="cart-info-pcs-price">Цена за штуку</p>
+                        <div class="cart-and-compare-wrapper">
+                            <input type="text" value="1">
+                            <div class="straw-amount-wrapper">
+                                <div class="amount-straw-up">
+                                    <svg class="main__left-col-straw">
+                                        <use xlink:href="sprite.svg#ctrl"></use>
+                                    </svg>
+                                </div>
+                                <div class="amount-straw-down">
+                                    <svg class="main__left-col-straw">
+                                        <use xlink:href="sprite.svg#ctrl"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <button type="submit" class="in-cart-btn">
+                                <svg class="icon-in-cart">
+                                    <use xlink:href="sprite.svg#cart"></use>
+                                </svg>
+                                <span>в корзину</span>
+                            </button>
+                        </div>
+                        <div class="add-compare-list">
+                            <span>Добавить к сравнению</span>
+                            <svg class="icon-add-tocart">
+                                <use xlink:href="sprite.svg#plus"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             </div> 
         </div>
     </main>
+
+
     <div id= "popup" class="popup popup__region hide">
         <div class="popup-overlay" data-close ="true">
             <div class="popup__body">
