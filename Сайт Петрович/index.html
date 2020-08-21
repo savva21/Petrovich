@@ -460,7 +460,7 @@
                                     <span class="visible-lg">Сортировать:</span>
                                     <!-- <span class="visible-md-inline-block visible-sm-inline-block">Сортировать по:</span> -->
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <select name="" id="" style = "display: none;">
                                         <option value="price-hight">цене ↑</option>
                                         <option value="price-low">цене ↓</option>
@@ -469,19 +469,21 @@
                                         <option value="name-last">названию Я-А</option>
                                         <option value="interest">популярности</option>
                                     </select>
-                                </li>
+                                </li> -->
                                 <li class="sorting-style">
-                                    <span>по цене</span>
+                                    <span class="sorting-style-price-span">по цене</span>
                                         <svg class="lowprice-link-icon">
                                             <use xlink:href="sprite.svg#lowprice"></use>
                                         </svg>
                                     
                                 </li>
-                                <li>
-                                    <span>по названию</span>
+                                <li class="sorting-style">
+                                    <span class="sorting-style-alphabet-span">по названию 
+                                        <span>А-Я</span>
+                                    </span>
                                 </li>
-                                <li>
-                                    <span>по популярности</span>
+                                <li class="sorting-style">
+                                    <span class="sorting-style-popular-span">по популярности</span>
                                 </li>
                             </ul>
                             <div class="view-variant-switcher">
@@ -500,7 +502,7 @@
                     </div>
                 </div>
                 <div class="products-list">
-                    <div class="product-container-raw" data-price="282" data-rating="3.5">
+                    <!-- <div class="product-container-raw" data-price="282" data-popularrate="3.5">
                         <div class="product-item-photo-col">
                             <img src="images/Пазогребневая плита Knauf.jpg" alt="плита Knauf">
                         </div>
@@ -584,7 +586,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-container-raw" data-price="198" data-rating="3">
+                    <div class="product-container-raw" data-price="198" data-popularrate="3">
                         <div class="product-item-photo-col">
                             <img src="images/Пазогребневая плита ВОЛМА.jpg" alt="плита Knauf">
                         </div>
@@ -671,7 +673,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-container-raw" data-price="22" data-rating="3">
+                    <div class="product-container-raw" data-price="22" data-popularrate="3">
                         <div class="product-item-photo-col">
                             <img src="images/скоба для пазогребневой плиты.jpg" alt="плита Knauf">
                         </div>
@@ -913,7 +915,7 @@
                                 </svg>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div> 
         </div>
@@ -945,5 +947,7 @@
             </div>
         </div>
     </div>
+    <script src="js/data.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
